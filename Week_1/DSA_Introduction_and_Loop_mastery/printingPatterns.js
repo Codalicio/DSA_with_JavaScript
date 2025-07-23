@@ -61,3 +61,22 @@ for (let i = 0; i < 5; i++) {
 }
 
 // ------------------------------------------------------------------
+
+// Print the below pattern :
+
+// 1
+// 1 2
+// 1 2 3
+// 1 2 3 4
+// 1 2 3 4 5
+
+// Logic : Create outermost loop that will define the number of row(s), then inside it create an another loop that will define the column(s). Then, print the number based on the value of (j) in an iteration.
+
+let n = 5;
+
+for (let i = 1; i <= n; i++) {
+  for (let j = 1; j <= i; j++) {
+    process.stdout.write(`${j} `);
+  }
+  process.stdout.write("\n");
+}
