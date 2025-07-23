@@ -38,3 +38,26 @@ for (let i = 0; i < 5; i++) {
 }
 
 // -------------------------------------------------------
+
+// Print the pattern given below :
+
+// *   *
+// *   *
+// *****
+// *   *
+// *   *
+
+// Logic : Take i as number of row(S) and j as number of column(s). Then run the outer loop for the number of row(s) times and inside the inner loop(j), check for the condition(s) for printing the star(*) and if the condition satisfies, then it will print a star(*) and otherwise(else) print a space.
+
+for (let i = 0; i < 5; i++) {
+  for (let j = 0; j < 5; j++) {
+    if (j === 0 || j === 4 || i === 2) {
+      process.stdout.write("*");
+    } else {
+      process.stdout.write(" ");
+    }
+  }
+  process.stdout.write("\n");
+}
+
+// ------------------------------------------------------------------
