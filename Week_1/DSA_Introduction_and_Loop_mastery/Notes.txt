@@ -1,0 +1,6 @@
+Data Structure is a way of efficiently storing data for faster computation such that it needs less storages space and less time for computation.
+
+Algorithms are logics to solve a problem.
+Logical possibilities to solve a problem is said to be as algorithms.
+Algorithm might use data structures to solve a specific problem.
+
